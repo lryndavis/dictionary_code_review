@@ -13,13 +13,14 @@
   letter-spacing: .03em;
   line-height: 80px;
   margin-top: 5px;
-  margin-bottom: 7px;
-  font-size: 50px;
+  margin-bottom: 5px;
+  font-size: 55px;
   font-weight: 700;
   font-family: 'Playfair Display';
   color: #463a44;
   margin-left: -20px;
 }
+
 .undersize {
   font-size: 20px;
   letter-spacing: .1em;
@@ -34,10 +35,20 @@
 
 .link1 {
   margin-left: -20px;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Playfair Display';
+  text-decoration: none;
 }
 
 .link2 {
-  margin-left: 5px;
+  margin-left: 20px;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Playfair Display';
+  text-decoration: none;
 }
 
 .dictionary {
@@ -51,13 +62,13 @@
 }
 
 .lines {
-font-size: 20px;
-letter-spacing: .1em;
-font-style: italic;
-font-weight: 400;
-font-family: 'Playfair Display';
-color: #3B3B3C;
-margin-top: -5px;
+  font-size: 20px;
+  letter-spacing: .1em;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Playfair Display';
+  color: #3B3B3C;
+  margin-top: -5px;
 }
 
 .list1 {
@@ -66,7 +77,6 @@ margin-top: -5px;
 
 .head1 {
   margin-bottom: 15px;
-
 }
 
 .btn {
@@ -75,10 +85,11 @@ margin-top: -5px;
 
 a {
   color: white;
-
+  text-decoration: none;
 }
 
 a:hover {
   color:#3B3B3C;
   margin-top: 10px;
+  text-decoration: none;
 }
