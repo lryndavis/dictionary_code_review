@@ -1,13 +1,15 @@
-<h1>Your Dictionary</h1>
+<div class="container1">
+  <h1 class="dictionary">Your Dictionary</h1>
 
-<h2>Click on a word!</h2>
+  <h2 class= "lines">Click on a word to to view it's definition:</h2>
+  <div class="list1">
+    <ul>
+      <% @words.each() do |word| %>
+      <li><a href="/words/<%= word.id() %>"><%= word.word_name() %></a></li>
+      <% end %>
+    </ul>
+  </div>
+  <h2 class="lines"> Or add a <a href ="/words/new">new word</a> to the list!</h2>
 
-<ul>
-  <% @words.each() do |word| %>
-  <li><a href="/words/<%= word.id() %>"><%= word.word_name() %></a></li>
-<% end %>
-</ul>
-
-
-
-<a href="/">Return to Main Page</a>
+  <a href="/">HOME</a>
+</div>

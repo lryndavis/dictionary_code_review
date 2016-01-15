@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+
+* {
+  font-family: 'Playfair Display';
+}
+
+.container1 {
+  background-color: #CEC3CD;
+  padding: 70px;
+}
+
+.bigsize {
+  letter-spacing: .03em;
+  line-height: 80px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Playfair Display';
+  color: #463a44;
+  margin-left: -20px;
+}
+.undersize {
+  font-size: 20px;
+  letter-spacing: .1em;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Playfair Display';
+  color: #3B3B3C;
+  margin-bottom: -13px;
+  margin-top: -30px;
+  margin-left: -20px;
+}
+
+.link1 {
+  margin-left: -20px;
+}
+
+.link2 {
+  margin-left: 5px;
+}
+
+.dictionary {
+  letter-spacing: .03em;
+  line-height: 80px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Playfair Display';
+  color: #463a44;
+  margin-top: -30px;
+}
+
+.lines {
+font-size: 20px;
+letter-spacing: .1em;
+font-style: italic;
+font-weight: 400;
+font-family: 'Playfair Display';
+color: #3B3B3C;
+margin-top: -5px;
+}
+
+.list1 {
+  padding: 15px;
+}
+
+.head1 {
+  margin-bottom: 15px;
+
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+a {
+  color: white;
+
+}
+
+a:hover {
+  color:#3B3B3C;
+  margin-top: 10px;
+}

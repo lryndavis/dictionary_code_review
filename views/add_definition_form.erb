@@ -1,7 +1,9 @@
-<h1>Add a definition to <%= @words.word_name() %> </h1>
+<div class="container1">
+  <h1 class="head1"><span class="lines">Add a definition to</span> <%= @words.word_name() %> </h1>
 
-<form action="/words/<%= @words.id %>" method="post">
-  <label for="word_definition">Your Definition:</label>
-  <input type="text" id="word_definition" name="word_definition">
-  <button type="submit">Add</button>
-</form>
+  <form action="/words/<%= @words.id %>" method="post">
+    <label for="word_definition">Your Definition:</label>
+    <input type="text" id="word_definition" name="word_definition">
+    <button type="submit">Add</button>
+  </form>
+</div
