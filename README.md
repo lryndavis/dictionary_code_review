@@ -7,7 +7,7 @@ This program allows the user to create a custom "dictionary". Users may add thei
 
 Clone repository at [Github](https://github.com/lryndavis/dictionary_code_review)
 
-or view in action at [Heroku]()
+or view in action at [Heroku](https://evening-badlands-7049.herokuapp.com)
 
 ### License
 MIT License. Copyright 2015 Epicodus.
