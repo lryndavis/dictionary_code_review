@@ -10,7 +10,7 @@ set(:show_exceptions, false)
       visit('/words/new')
       fill_in "word_name", :with => "Sherman"
       click_button("Add")
-      expect(page). to have_content("Success!")
+      expect(page). to have_content("Sherman")
     end
   end
 
@@ -19,9 +19,9 @@ describe('the new word list post path', {:type => :feature}) do
        visit('/words/new')
        fill_in "word_name", :with => "Sherman"
        click_button("Add")
-       expect(page). to have_content("Success!")
-       click_link('See your Dictionary!')
-       expect(page).to(have_content("Sherman"))
+       expect(page). to have_content("Sherman")
+      #  click_link('See your Dictionary!')
+      #  expect(page).to(have_content("Sherman"))
      end
    end
 
@@ -30,9 +30,9 @@ describe('the new word list post path', {:type => :feature}) do
        visit('/words/new')
        fill_in "word_name", :with => "Sherman"
        click_button("Add")
-       expect(page). to have_content("Success!")
-       click_link('See your Dictionary!')
-       expect(page).to(have_content("Sherman"))
+       expect(page). to have_content("Sherman")
+      #  click_link('See your Dictionary!')
+      #  expect(page).to(have_content("Sherman"))
        click_link('Sherman', match: :first)
        expect(page).to(have_content("Sherman"))
      end

@@ -21,7 +21,7 @@ post('/words') do
   word_name = params.fetch('word_name')
   Word.new(:word_name => word_name).save()
   @words = Word.all()
-  erb(:success)
+  erb(:words)
 end
 
 get('/words/:id') do
