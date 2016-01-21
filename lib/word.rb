@@ -17,6 +17,15 @@ class Word
     @word_meanings
   end
 
+
+  define_method(:add_definition) do |definition|
+    word_meanings = []
+    definition = Definitions.new(:word_definition => word_definition)
+    definition.save()
+    @word_meanings.push(definiton)
+  end
+
+
   define_method(:save) do
     @@word_list.push(self)
   end

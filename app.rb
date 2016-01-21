@@ -37,9 +37,11 @@ end
  post('/words/:id') do
     @words = Word.find(params.fetch('id').to_i())
     word_definition = params.fetch('word_definition')
-    @definition = Definitions.new(:word_definition => word_definition)
-    @definition.save()
-    @words.word_meanings.push(@definition)
-    @definitions = Definitions.all()
+    # @definition = Definitions.new(:word_definition => word_definition)
+    # @definition.save()
+    # @words.word_meanings.push(@definition)
+    # @definitions = Definitions.all()
+    @words.add_definition(word_definition)
+    @definitions = Definitions.all()ß
     erb(:word)
   end
